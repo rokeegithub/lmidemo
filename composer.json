@@ -1,0 +1,26 @@
+{
+    "name": "lastmile/lmidemo",
+    "description": "this is demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nirbhay",
+            "email": "naglenirbhay27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lastmile\\Lmidemo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lastmile\\Lmidemo\\DemoServiceProvider"
+            ]
+        }
+    }
+}
